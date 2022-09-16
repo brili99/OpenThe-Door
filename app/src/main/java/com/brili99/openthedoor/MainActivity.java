@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private TextInputEditText inputIdManual;
     public String androidId;
     public RequestQueue queue;
-    public String URL = "http://172.17.1.12/openthedoor.php";
+    public String URL = "http://172.17.1.12/OpenThe_Door/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
