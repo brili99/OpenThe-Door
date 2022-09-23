@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
     public String androidId;
     public RequestQueue queue;
     private String DIRECTORY = null;
-//    public String URL = "http://172.17.1.12/musium/API/qr_scan.php";
-    public String URL = "http://192.168.2.233/musium/API/qr_scan.php";
+    public String URL = "http://172.17.1.12/musium/API/qr_scan.php";
+//    public String URL = "http://192.168.2.233/musium/API/qr_scan.php";
 //    public String URL = "http://192.168.2.233/OpenThe_Door/";
 
     @Override

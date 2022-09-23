@@ -49,10 +49,11 @@ public class Login extends AppCompatActivity {
     AppCompatEditText etEmail, etPassword;
     Button btnLogin;
     public RequestQueue queue;
-//    String urlLogin = "http://172.17.1.12/musium/API/qr_scan.php";
-    String urlLogin = "http://192.168.2.233/musium/API/app_login.php";
+    String urlLogin = "http://172.17.1.12/musium/API/app_login.php";
+//    String urlLogin = "http://192.168.2.233/musium/API/app_login.php";
 
-    String urlVerifToken = "http://192.168.2.233/musium/API/verify_token.php";
+    String urlVerifToken = "http://172.17.1.12/musium/API/verify_token.php";
+//    String urlVerifToken = "http://192.168.2.233/musium/API/verify_token.php";
     private SweetAlertDialog pDialog;
     private String DIRECTORY = null;
     private String mainKeyAlias;
